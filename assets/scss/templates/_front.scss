@@ -1,7 +1,7 @@
 // Page header
 #front-hero {
   .marketing {
-    @include grid-row();
+    @include flex-grid-row();
     max-width: 55rem;
   }
 
@@ -26,12 +26,12 @@
 
   #watch {
     @include breakpoint(small) {
-      @include grid-column(7);
+      @include flex-grid-column(7);
       @include grid-column-position(-5);
     }
 
     @include breakpoint(medium) {
-      @include grid-column(12);
+      @include flex-grid-column(12);
       @include grid-column-position(0);
     }
 
@@ -78,11 +78,11 @@
 
   .tagline {
     @include breakpoint(small) {
-      @include grid-column(8);
+      @include flex-grid-column(8);
     }
 
     @include breakpoint(medium) {
-      @include grid-column(5);
+      @include flex-grid-column(5);
       padding-top: 6rem;
     }
   }
@@ -113,15 +113,15 @@
 
 // Intro
 .intro {
-  @include grid-row();
+  @include flex-grid-row();
 
   .fp-intro {
     @include breakpoint(small) {
-      @include grid-column(12);
+      @include flex-grid-column(12);
     }
 
     @include breakpoint(medium) {
-      @include grid-column(10);
+      @include flex-grid-column(10);
       @include grid-column-offset(1);
 
       h2 {
@@ -141,10 +141,10 @@
 
 // Section divider
 .section-divider {
-  @include grid-row();
+  @include flex-grid-row();
 
   hr {
-    @include grid-column(12);
+    @include flex-grid-column(12);
     @extend .dotted;
     box-sizing: border-box;
   }
@@ -153,11 +153,11 @@
 
 // Benefits
 .benefits {
-  @include grid-row();
+  @include flex-grid-row();
   text-align: center;
 
   header {
-    @include grid-column(12);
+    @include flex-grid-column(12);
 
     h2 {
       font-weight: 300;
@@ -175,11 +175,11 @@
   .customizable,
   .professional {
     @include breakpoint(small) {
-      @include grid-column(12);
+      @include flex-grid-column(12);
     }
 
     @include breakpoint(medium) {
-      @include grid-column(3);
+      @include flex-grid-column(3);
     }
 
     img {
@@ -199,8 +199,8 @@
   }
 
   .why-foundation {
-    @include grid-row();
-    @include grid-column(12);
+    @include flex-grid-row();
+    @include flex-grid-column(12);
     margin-top: 4rem;
   }
 }
