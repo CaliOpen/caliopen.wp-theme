@@ -25,12 +25,12 @@ msgid ""
 "The page you are looking for might have been removed, had its name changed, "
 "or is temporarily unavailable."
 msgstr ""
-"La page que vous recherchez n'existe probablement plus, à changée de nom ou "
-"est temporairement non disponible."
+"La page que vous recherchez n'existe probablement plus, a changé de nom ou "
+"est temporairement indisponible."
 
 #: ../404.php:14
 msgid "Please try the following:"
-msgstr "SVP essayez ceci:"
+msgstr "Veuillez essayez ceci:"
 
 #: ../404.php:16
 msgid "Check your spelling"
@@ -65,7 +65,7 @@ msgstr "%1$s"
 
 #: ../comments.php:10
 msgid "(Edit)"
-msgstr "(Editer)"
+msgstr "(Modifier)"
 
 #: ../comments.php:16
 msgid "Your comment is awaiting moderation."
@@ -113,12 +113,12 @@ msgstr "Laisser une réponse à %s"
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr ""
-"Vous devez être <a href=\"%s\">connecté</a> pour poster un commentaire."
+"Vous devez être <a href=\"%s\">connecté⋅e</a> pour poster un commentaire."
 
 #: ../comments.php:68
 #, php-format
 msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
-msgstr "Connecté comme <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr "Connecté⋅e comme <a href=\"%s/wp-admin/profile.php\">%s</a>."
 
 #: ../comments.php:68
 msgid "Log out of this account"
@@ -150,11 +150,11 @@ msgstr "Commenter"
 
 #: ../comments.php:87
 msgid "You can use these tags:"
-msgstr "Tags utilisables:"
+msgstr "Tags utilisables :"
 
 #: ../comments.php:88
 msgid "Submit Comment"
-msgstr "Envoyer commentaire"
+msgstr "Envoyer le commentaire"
 
 #: ../content-none.php:11
 msgid "Nothing Found"
@@ -165,7 +165,7 @@ msgstr "Rien trouvé"
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
-"Prêt à publier votre premier article? <a href=\"%1$s\">Commencez ici</a>."
+"Prêt⋅e à publier votre premier article ? <a href=\"%1$s\">Commencez ici</a>."
 
 #: ../content-none.php:21
 msgid ""
@@ -173,19 +173,19 @@ msgid ""
 "different keywords."
 msgstr ""
 "Désolé, mais rien ne correspond à votre recherche. Essayez à nouveau avec "
-"des mots clef différents."
+"des mots-clefs différents."
 
 #: ../content-none.php:26
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
-"Nous pouvons trouver ce que vous cherchez. Peut être qu'une recherche "
+"Nous pouvons trouver ce que vous cherchez. Peut-être qu'une recherche "
 "pourrait aider."
 
 #: ../content.php:16
 msgid "Continue reading..."
-msgstr "Continuer à lire..."
+msgstr "Continuer à lire…"
 
 #: ../hero.php:40 ../kitchen-sink.php:731 ../page-full.php:19
 #: ../page-home.php:20 ../page.php:19 ../single.php:28
@@ -228,7 +228,7 @@ msgstr "<a href=\"%s\">Personnaliser</a>"
 
 #: ../library/widget-areas.php:6
 msgid "Sidebar widgets"
-msgstr "Widgets côté"
+msgstr "Widgets de la barre latérale"
 
 #: ../library/widget-areas.php:7
 msgid "Drag widgets to this sidebar container."
